@@ -1,6 +1,7 @@
 [
   {
     "id": "water",
+    "copy-from": "water",
     "type": "COMESTIBLE",
     "comestible_type": "DRINK",
     "category": "food",
@@ -66,19 +67,12 @@
   },
   {
     "id": "offal",
-    "copy-from": "meat",
+    "copy-from": "offal",
     "type": "COMESTIBLE",
     "name": "raw offal",
-    "description": "Uncooked internal organs and entrails.  Unappealing to eat but filled with essential vitamins. [3/10 rad]",
-    "proportional": {
-        "calories": 0.5,
-        "parasites": 2.0
-    },
-    "flags": [ "SMOKABLE" ],
     "relative": {
-        "vitamins": [ [ "vitA", 6 ] ],
-        "fun": -5
-    },
+        "vitamins": [ [ "vitA", 6 ] ]
+	}
     "effects": [
       { "id": "rad_tenths", "duration": 3 }
     ]
