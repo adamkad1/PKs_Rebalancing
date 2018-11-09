@@ -72,7 +72,7 @@
     "name": "raw offal",
     "relative": {
         "vitamins": [ [ "vitA", 6 ] ]
-	}
+	},
     "effects": [
       { "id": "rad_tenths", "duration": 3 }
     ]
