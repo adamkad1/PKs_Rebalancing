@@ -70,6 +70,7 @@
     "copy-from": "offal",
     "type": "COMESTIBLE",
     "name": "raw offal",
+	"description": "Uncooked internal organs and entrails.  Unappealing to eat but filled with essential vitamins. [3/10 rad]",
     "effects": [
       { "id": "rad_tenths", "duration": 3 }
     ]
