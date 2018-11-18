@@ -1,17 +1,5 @@
 [
   {
-    "type": "terrain",
-    "id": "t_grass_tall",
-    "name": "tall grass",
-    "description": "Tall grass about head high.",
-    "looks_like": "t_grass",
-    "symbol": ",",
-    "color": "green",
-    "move_cost": 5,
-    "flags": [ "DIGGABLE", "FLAT", "TRANSPARENT" ],
-    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
-  },
-  {
     "type" : "terrain",
     "id" : "t_improvised_fence",
     "name": "makeshift fence",
