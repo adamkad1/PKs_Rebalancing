@@ -2,7 +2,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_PEST",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_maggot",
     "monsters": [
@@ -33,7 +33,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_PEST_FLYING",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_crow",
     "monsters": [
@@ -50,7 +50,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_ANT",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
@@ -70,7 +70,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_SPIDER",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_spider_web",
     "monsters": [
@@ -87,7 +87,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_SPIDER_TRAP",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_spider_trapdoor_giant",
     "monsters": [
@@ -104,7 +104,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_CAVE",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
@@ -145,7 +145,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_SAFE",
-    "is_safe": true,
+    "is_safe": false,
 	"override": true,
 	"freq_total": 1001,
     "default": "mon_null",
@@ -206,7 +206,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_DOMESTIC",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_dog",
     "monsters": [
@@ -247,7 +247,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_BEE",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
@@ -262,7 +262,7 @@
   {
     "type": "monstergroup",
     "name": "CAMPERS",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
@@ -311,7 +311,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_HORROR",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [

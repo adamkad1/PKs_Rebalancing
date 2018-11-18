@@ -134,7 +134,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_LAB",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_zombie_scientist",
     "monsters": [
@@ -163,7 +163,7 @@
   {
     "type":"monstergroup",
     "name": "GROUP_ICE_LAB",
-	"override": true,
+	"override": false,
 	"freq_total": 1001,
     "default": "mon_zombie_scientist",
     "monsters": [
