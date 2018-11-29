@@ -39,9 +39,6 @@
     "monsters": [
       { "monster": "mon_zombie_blind_pk", "freq": 50, "cost_multiplier": 5 },
       { "monster": "mon_zombie_pk", "freq": 150, "cost_multiplier": 3 },
-      { "monster": "mon_skeleton", "freq": 50, "cost_multiplier": 1 },
-      { "monster": "mon_skeleton_pk", "freq": 100, "cost_multiplier": 5 },
-      { "monster": "mon_skeleton_husk", "freq": 25, "cost_multiplier": 10 },
       { "monster": "mon_beekeeper", "freq": 150, "cost_multiplier": 1 },
       { "monster": "mon_beekeeper_pk", "freq": 100, "cost_multiplier": 5 },
       { "monster": "mon_zombie_shady_ghost", "freq": 40, "cost_multiplier": 7 },
@@ -59,8 +56,6 @@
       { "monster": "mon_zombie", "freq": 25, "cost_multiplier": 1 },
       { "monster": "mon_zombie_pk", "freq": 50, "cost_multiplier": 2 },
       { "monster": "mon_zombie_rot_pk", "freq": 35, "cost_multiplier": 3 },
-      { "monster": "mon_skeleton_pk", "freq": 25, "cost_multiplier": 5 },
-      { "monster": "mon_skeleton_husk", "freq": 5, "cost_multiplier": 5 },
 
       { "monster": "mon_zombie_acidic", "freq": 25, "cost_multiplier": 3 },
       { "monster": "mon_zombie_spitter", "freq": 25, "cost_multiplier": 5 },
@@ -104,8 +99,6 @@
     "monsters": [
       { "monster": "mon_zombie", "freq": 15, "cost_multiplier": 1 },
       { "monster": "mon_zombie_pk", "freq": 25, "cost_multiplier": 3 },
-      { "monster": "mon_skeleton", "freq": 30, "cost_multiplier": 5 },
-      { "monster": "mon_skeleton_pk", "freq": 10, "cost_multiplier": 7 },
       { "monster": "mon_zombie_crawler", "freq": 25, "cost_multiplier": 1 },
       { "monster": "mon_zombie_rot_pk", "freq": 15, "cost_multiplier": 5 },
 

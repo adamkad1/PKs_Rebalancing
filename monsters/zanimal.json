@@ -293,7 +293,7 @@
     "melee_dice_sides": 5,
     "melee_damage": [ { "damage_type": "heat", "amount": 3 } ],
     "melee_cut": 7,
-    "dodge": 4,
+    "dodge": 3,
     "attack_effs": [
       { "id": "rad_tenths", "duration": 15 },
       { "id": "rad_fives", "duration": 45 }
