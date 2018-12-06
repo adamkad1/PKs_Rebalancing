@@ -178,8 +178,8 @@
         "require_targeting_npc": true,
         "require_targeting_monster": true,
         "targeting_sound": "\"Acquiring target.\"",
-        "targeting_volume": 30,
-        "targeting_cost": 300,
+        "targeting_volume": 40,
+        "targeting_cost": 400,
         "description": "Target acquired.  Lasers charged.  Termination imminent.",
         "no_ammo_sound": "\"Power cells depleted.\""
       }
