@@ -1873,7 +1873,7 @@
     "special_when_hit": [ "ACIDSPLASH", 25 ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler_pk",
-    "flags": [ "ACIDPROOF", "ACID_BLOOD", "SEES", "HEARS", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "REVIVES_HEALTHY", "SLUDGEPROOF", "FLAMMABLE", "NIGHT_INVISIBILITY", "SWIMS", "FILTHY" ]
+    "flags": [ "ACIDPROOF", "ACID_BLOOD", "SEES", "HEARS", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "REVIVES_HEALTHY", "SLUDGEPROOF", "FLAMMABLE", "SWIMS", "FILTHY" ]
   },
   {
     "id": "mon_zombie_crawler_pk",
@@ -1914,7 +1914,7 @@
     "special_when_hit": [ "ACIDSPLASH", 10 ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler_scorched",
-    "flags": [ "ACIDPROOF", "ACID_BLOOD", "SEES", "HEARS", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "REVIVES_HEALTHY", "PLASTIC", "SLUDGEPROOF", "FLAMMABLE", "NIGHT_INVISIBILITY", "ABSORBS", "SWIMS", "FILTHY" ]
+    "flags": [ "ACIDPROOF", "ACID_BLOOD", "SEES", "HEARS", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "REVIVES_HEALTHY", "PLASTIC", "SLUDGEPROOF", "FLAMMABLE", "ABSORBS", "SWIMS", "FILTHY" ]
   },
   {
     "id": "mon_zombie_hulk_pk",
