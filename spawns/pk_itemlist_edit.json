@@ -386,7 +386,8 @@
       [ "candle_smoke", 8 ],
       [ "medical_gauze", 4 ],
       [ "dr_stem_cell", 1 ],
-      [ "molotov_micro", 5 ]
+      [ "molotov_micro", 5 ],
+      [ "pepto", 5 ]
     ]
   },
   {
@@ -793,12 +794,11 @@
   },
   {
     "type": "item_group",
-    "id": "softrugs",
+    "id": "softdrugs",
     "items": [
-      [ "stamina_vial", 35 ],
+      [ "stamina_vial", 15 ],
       [ "1st_aid", 15],
 	  [ "weak_antibiotic", 10],
-      [ "medikit", 20 ],
       [ "antidote_posion", 15 ],
       [ "antidote_badpoison", 5 ],
       [ "pepto", 80 ],
@@ -1073,7 +1073,8 @@
     "items": [
       [ "turtleneck", 1 ],
       [ "candle_smoke", 4 ],
-      [ "candle", 5 ]
+      [ "candle", 5 ],
+      [ "pepto", 3 ]
     ]
   },
   {
@@ -1082,7 +1083,8 @@
     "items": [
       [ "candle_smoke", 5 ],
       [ "candle", 8 ],
-      [ "medical_gauze", 2 ]
+      [ "medical_gauze", 2 ],
+	  [ "pepto", 2 ]
     ]
   },
   {
@@ -1092,7 +1094,8 @@
       [ "turtleneck", 4 ],
       [ "candle_smoke", 2 ],
       [ "candle", 3 ],
-      [ "medical_gauze", 1 ]
+      [ "medical_gauze", 1 ],
+      [ "pepto", 3 ]
     ]
   },
   {
@@ -1123,7 +1126,8 @@
       [ "candle_smoke", 6 ],
       [ "candle", 8 ],
       [ "medical_gauze", 4 ],
-      [ "oxy_torch", 1 ]
+      [ "oxy_torch", 1 ],
+      [ "pepto", 4 ]
     ]
   },
   {
@@ -1132,7 +1136,8 @@
     "items": [
       [ "candle_smoke",3 ],
       [ "candle", 4 ],
-      [ "medical_gauze", 6 ]
+      [ "medical_gauze", 6 ],
+      [ "pepto", 6 ]
     ]
   },
   {
