@@ -526,7 +526,6 @@
     "special_attacks": [ [ "ACID_BARF", 30 ] ],
     "upgrades": { "into": "mon_ant_acid", "half_life": 0 },
     "death_function": [ "ACID", "NORMAL" ],
-    "harvest": "acidant_larva",
     "flags": [ "LARVA", "POISON", "SMELLS" ]
   },
   {
@@ -600,7 +599,7 @@
     "species": [ "INSECT" ],
     "diff": 13,
     "size": "MEDIUM",
-	"harvest": "arachnid_acid",
+    "harvest": "arachnid_acid",
     "hp": 70,
     "speed": 75,
     "material": [ "iflesh" ],
@@ -645,7 +644,6 @@
     ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "ACID", "NORMAL" ],
-    "harvest": "acidant_med",
     "flags": [ "ACIDPROOF", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS" ]
   },
   {
@@ -717,7 +715,6 @@
     "symbol": "A",
     "color": "red",
     "size": "MEDIUM",
-	"harvest": "arachnid_acid",
     "material": "iflesh",
     "diff": 20,
     "hp": 120,
@@ -741,7 +738,7 @@
       [ "scrib", 60 ]
    ],
     "death_function": "NORMAL",
-    "harvest": "acidant_med",
+    "harvest": "arachnid_acid",
     "flags": [ "ACIDPROOF", "POISON", "SEES", "HEARS", "SMELLS", "CLIMBS" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_CLOSE", "FIRE" ],
     "fear_triggers": [ "HURT" ]
@@ -756,7 +753,6 @@
     "symbol": "A",
     "color": "green_red",
     "size": "HUGE",
-	"harvest": "arachnid_acid",
     "material": "iflesh",
     "diff": 30,
     "hp": 260,
@@ -793,7 +789,7 @@
       }
    ],
     "death_function": "NORMAL",
-    "harvest": "acidant_med",
+    "harvest": "arachnid_acid",
     "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "CHITIN" ],
     "anger_triggers": [ "FRIEND_DIED", "PLAYER_CLOSE", "FIRE", "HURT" ]
   }

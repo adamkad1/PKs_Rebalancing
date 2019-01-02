@@ -952,7 +952,6 @@
     "hp": 240,
     "speed": 120,
     "material": [ "flesh" ],
-	"harvest": "mammal_large_fur",
     "symbol": "B",
     "color": "brown_white",
     "aggression": -15,
