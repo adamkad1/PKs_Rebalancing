@@ -14,7 +14,7 @@
       { "id": "doom_unhealth", "duration": 2, "chance": 20 }
     ],
     "special_attacks": [ [ "numbing_poison", 20 ], [ "wound_minor", 30 ] ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "VENOM", "FLIES", "HIT_AND_RUN", "CHITIN", "PARALYZEVENOM", "GRABS" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "VENOM", "FLIES", "HIT_AND_RUN", "PARALYZEVENOM", "GRABS" ]
   },
   {
     "id": "mon_slug_giant",
@@ -39,7 +39,7 @@
     "attack_effs": [
       { "id": "poison", "duration": 400, "chance": 35 }
     ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CHITIN", "FAT", "CLIMBS" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CLIMBS" ]
   },
   {
     "id": "mon_maggot",

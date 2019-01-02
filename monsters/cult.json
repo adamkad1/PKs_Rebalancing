@@ -83,6 +83,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 20,
     "size": "LARGE",
+    "harvest": "zombie",
     "hp": 210,
     "speed": 105,
     "material": [ "flesh" ],
@@ -126,6 +127,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 13,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 160,
     "speed": 100,
     "material": [ "flesh" ],
@@ -151,7 +153,7 @@
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "REVIVES", "CLIMBS", "LEATHER", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "REVIVES", "CLIMBS" ]
   },
   {
     "id": "mon_cult_churl",
@@ -162,6 +164,7 @@
     "species": [ "MAMMAL" ],
     "diff": 16,
     "size": "MEDIUM",
+    "harvest": "human",
     "material": [ "flesh" ],
     "symbol": "@",
     "color": "red",
@@ -188,7 +191,7 @@
       ]
     },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES" ],
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS" ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "FRIEND_ATTACKED", "MEAT" ]
   },
@@ -201,6 +204,7 @@
     "species": [ "MAMMAL" ],
     "diff": 13,
     "size": "MEDIUM",
+    "harvest": "human",
     "material": [ "flesh" ],
     "symbol": "@",
     "color": "magenta",
@@ -227,7 +231,7 @@
       ]
     },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES" ],
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS" ],
     "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "FRIEND_DIED" ],
     "placate_triggers": [ "MEAT", "HURT" ]
@@ -241,6 +245,7 @@
     "species": [ "NETHER" ],
     "diff": 25,
     "size": "HUGE",
+    "harvest": "mr_bones",
     "hp": 800,
     "speed": 60,
     "material": [ "flesh", "bone" ],
@@ -279,7 +284,7 @@
       "into": "mon_nuculais"
     },
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "GRABS", "BONES", "QUEEN" ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "GRABS", "QUEEN" ],
     "placate_triggers": [ "MEAT" ]
   },
   {

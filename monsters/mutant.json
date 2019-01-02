@@ -116,6 +116,7 @@
   {
     "id": "mon_sludge_crawler_queen",
     "type": "MONSTER",
+    "copy-from": "mon_sludge_crawler",
     "name": "sludge crawler",
     "description": "A large sluglike creature, nine feet long and the width of a refrigerator.  Its black body glistens as it oozes its way along the ground.  Eye stalks occasionally push their way out of the oily mass and look around.  This big mama looks important.",
     "default_faction": "mutant_omnivore",

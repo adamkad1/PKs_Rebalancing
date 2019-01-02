@@ -35,7 +35,7 @@
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "QUEEN", "CHITIN", "FAT", "CLIMBS", "FIREPROOF", "BASHES" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "QUEEN", "CLIMBS", "FIREPROOF", "BASHES" ]
   },
   {
     "id": "mon_ant_queen_young",
@@ -46,6 +46,7 @@
     "species": [ "INSECT" ],
     "diff": 25,
     "size": "LARGE",
+	"harvest": "arachnid",
     "hp": 90,
     "speed": 90,
     "material": [ "iflesh" ],
@@ -72,7 +73,7 @@
     ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "CHITIN", "FAT", "CLIMBS", "FIREPROOF", "FLIES", "BASHES" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "CLIMBS", "FIREPROOF", "FLIES", "BASHES" ]
   },
   {
     "id": "mon_ant_male",
@@ -83,6 +84,7 @@
     "species": [ "INSECT" ],
     "diff": 16,
     "size": "MEDIUM",
+	"harvest": "arachnid",
     "hp": 80,
     "speed": 105,
     "material": [ "iflesh" ],
@@ -108,7 +110,7 @@
     "fear_triggers": [ "FRIEND_DIED", "HURT" ],
     "placate_triggers": [ "FRIEND_ATTACKED" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "FAT", "CLIMBS", "FLIES", "BASHES" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "CLIMBS", "FLIES", "BASHES" ]
   },
   {
     "id": "mon_ant_larva",
@@ -119,6 +121,7 @@
     "default_faction": "ant",
     "species": [ "INSECT" ],
     "size": "SMALL",
+    "harvest": "mammal_tiny",
     "material": [ "iflesh" ],
     "symbol": "a",
     "color": "white",
@@ -149,6 +152,7 @@
     "species": [ "INSECT" ],
     "diff": 7,
     "size": "MEDIUM",
+	"harvest": "arachnid",
     "hp": 40,
     "speed": 90,
     "material": [ "iflesh" ],
@@ -231,6 +235,7 @@
     "species": [ "INSECT" ],
     "diff": 7,
     "size": "SMALL",
+	"harvest": "arachnid",
     "hp": 40,
     "speed": 90,
     "material": [ "iflesh" ],
@@ -266,6 +271,7 @@
     "species": [ "INSECT" ],
     "diff": 10,
     "size": "MEDIUM",
+	"harvest": "arachnid",
     "hp": 65,
     "speed": 105,
     "material": [ "iflesh" ],
@@ -310,6 +316,7 @@
     "species": [ "INSECT" ],
     "diff": 20,
     "size": "MEDIUM",
+	"harvest": "arachnid",
     "hp": 90,
     "speed": 110,
     "material": [ "iflesh" ],
@@ -350,6 +357,7 @@
     "species": [ "INSECT" ],
     "diff": 16,
     "size": "MEDIUM",
+	"harvest": "arachnid",
     "hp": 60,
     "speed": 125,
     "material": [ "iflesh" ],
@@ -409,6 +417,7 @@
     "species": [ "INSECT" ],
     "diff": 20,
     "size": "MEDIUM",
+	"harvest": "arachnid",
     "hp": 75,
     "speed": 125,
     "material": [ "iflesh" ],
@@ -502,6 +511,7 @@
     "default_faction": "ant",
     "species": [ "INSECT" ],
     "size": "SMALL",
+    "harvest": "arachnid_acid",
     "hp": 20,
     "speed": 10,
     "material": [ "iflesh" ],
@@ -522,6 +532,7 @@
   {
     "id": "mon_ant_acid",
     "type": "MONSTER",
+    "copy-from": "mon_ant_acid",
     "edit-mode": "overwrite",
     "name": "giant acidic ant",
     "description": "An almost blind monstrous red ant with a swollen abdomen, that ends with a small orifice at the tip.  Glistening liquid seems to drip out periodically.",
@@ -589,6 +600,7 @@
     "species": [ "INSECT" ],
     "diff": 13,
     "size": "MEDIUM",
+	"harvest": "arachnid_acid",
     "hp": 70,
     "speed": 75,
     "material": [ "iflesh" ],
@@ -705,6 +717,7 @@
     "symbol": "A",
     "color": "red",
     "size": "MEDIUM",
+	"harvest": "arachnid_acid",
     "material": "iflesh",
     "diff": 20,
     "hp": 120,
@@ -743,6 +756,7 @@
     "symbol": "A",
     "color": "green_red",
     "size": "HUGE",
+	"harvest": "arachnid_acid",
     "material": "iflesh",
     "diff": 30,
     "hp": 260,

@@ -8,6 +8,7 @@
     "symbol": "A",
     "color": "dark_gray",
     "size": "MEDIUM",
+	"harvest": "zombie",
     "material": [ "flesh" ],
     "diff": 30,
     "aggression": 5,
@@ -57,7 +58,7 @@
       }
     ],
     "description": "A sickly yellow, elongated humanoid.  With almost complete control over its own flames it attacks with pyrokinesis and breathes life into fallen combatants.",
-    "flags": ["SEES", "HEARS", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "WARM", "POISON", "NO_BREATHE", "BONES", "QUEEN"],
+    "flags": ["SEES", "HEARS", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "WARM", "POISON", "NO_BREATHE", "QUEEN"],
     "anger_triggers": ["HURT", "PLAYER_CLOSE", "PLAYER_WEAK"]
   },
   {
@@ -69,6 +70,7 @@
     "symbol": "i",
     "color": "brown",
     "size": "MEDIUM",
+	"harvest": "zombie_leather",
     "material": [ "flesh" ],
     "diff": 12,
     "aggression": 30,
@@ -118,7 +120,7 @@
       }
     ],
     "description": "This humanoid resembles a burnt cenobite.  It attacks with fire and claw, and is the grunt of the demonic armies.",
-    "flags": ["SEES", "HEARS", "WARM", "BASHES", "POISON", "BLEED", "BONES", "CLIMBS", "PUSH_MON", "GROUP_MORALE", "REVIVES", "REVIVES_HEALTHY"]
+    "flags": ["SEES", "HEARS", "WARM", "BASHES", "POISON", "BLEED", "CLIMBS", "PUSH_MON", "GROUP_MORALE", "REVIVES", "REVIVES_HEALTHY"]
   },
   {
     "id": "mon_pinky_revive",
@@ -129,6 +131,7 @@
     "symbol": "D",
     "color": "red",
     "size": "LARGE",
+	"harvest": "exempt",
     "material": [ "flesh" ],
     "diff": 16,
     "aggression": 60,
@@ -165,7 +168,7 @@
       }
     ],
     "description": "A pink-skinned bipedal monster, with jaws that occupy a disproportionate amount of its muscular body.  Melds into the shadows to ambush victims.",
-    "flags": ["SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "BLEED", "BONES", "PUSH_MON", "GROUP_BASH", "NIGHT_INVISIBILITY", "GROUP_MORALE", "REVIVES", "REVIVES_HEALTHY"]
+    "flags": ["SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "BLEED", "PUSH_MON", "GROUP_BASH", "NIGHT_INVISIBILITY", "GROUP_MORALE", "REVIVES", "REVIVES_HEALTHY"]
   },
   {
     "id": "mon_hell_knight_revive",
@@ -176,6 +179,7 @@
     "symbol": "K",
     "color": "red_yellow",
     "size": "LARGE",
+	"harvest": "zombie_leather",
     "material": [ "flesh"],
     "diff": 20,
     "aggression": 100,
@@ -225,7 +229,7 @@
       }
     ],
     "description": "A towering monster vaguely reminiscent of a satyr.  As a member of the ruling species of its domains, it is given administrative control.  Its plasma blasts are deadly.",
-    "flags": ["SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "POISON", "BONES", "PUSH_MON", "BLEED", "REVIVES", "REVIVES_HEALTHY"]
+    "flags": ["SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "POISON", "PUSH_MON", "BLEED", "REVIVES", "REVIVES_HEALTHY"]
   },
   {
     "id": "mon_cacodemon_revive",
@@ -236,6 +240,7 @@
     "symbol": "C",
     "color": "i_red",
     "size": "MEDIUM",
+	"harvest": "arachnid_tained",
     "material": [ "flesh" ],
     "diff": 20,
     "aggression": 70,
@@ -282,7 +287,7 @@
       }
     ],
     "description": "A dark red sphere with wicked teeth.  Its single eye lights up as it expels plasma from its mouth.",
-    "flags": [ "SEES", "HEARS", "FLIES", "POISON", "ARTHROPOD_BLOOD", "BLEED", "BASHES", "CHITIN", "BONES", "FAT", "PUSH_MON", "REVIVES", "REVIVES_HEALTHY" ]
+    "flags": [ "SEES", "HEARS", "FLIES", "POISON", "ARTHROPOD_BLOOD", "BLEED", "BASHES", "PUSH_MON", "REVIVES", "REVIVES_HEALTHY" ]
   },
   {
     "id": "mon_doom_churl_revive",
@@ -294,6 +299,7 @@
     "symbol": "@",
     "color": "red",
     "size": "MEDIUM",
+	"harvest": "human",
     "material": [ "flesh" ],
     "diff": 10,
     "hp": 65,
@@ -325,7 +331,7 @@
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "POISON", "CLIMBS", "LEATHER", "BONES", "REVIVES", "REVIVES_HEALTHY" ],
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "POISON", "CLIMBS", "REVIVES", "REVIVES_HEALTHY" ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "FRIEND_DIED", "MEAT" ]
     }
