@@ -518,7 +518,8 @@
     "description": "Your body can't take much abuse.  Its maximum HP is 25% lower than usual and you heal slightly slower.  Stacks with Glass Jaw.",
     "starting_trait": true,
     "category": [ "CEPHALOPOD", "MEDICAL" ],
-    "hp_modifier": -0.25
+    "hp_modifier": -0.25,
+    "cancels": [ "HUGE" ]
   },
   {
     "type": "mutation",
