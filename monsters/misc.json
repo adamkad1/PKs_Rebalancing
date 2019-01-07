@@ -134,6 +134,7 @@
     "hp": 80,
     "speed": 100,
     "material": [ "plastic" ],
+	"harvest": "exempt",
     "symbol": "@",
     "color": "ltgray",
     "aggression": 50,
