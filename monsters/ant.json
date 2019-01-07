@@ -121,8 +121,8 @@
     "default_faction": "ant",
     "species": [ "INSECT" ],
     "size": "SMALL",
-    "harvest": "mammal_tiny",
     "material": [ "iflesh" ],
+    "harvest": "meatslug",
     "symbol": "a",
     "color": "white",
     "aggression": -1,
@@ -511,7 +511,7 @@
     "default_faction": "ant",
     "species": [ "INSECT" ],
     "size": "SMALL",
-    "harvest": "arachnid_acid",
+    "harvest": "meatslug",
     "hp": 20,
     "speed": 10,
     "material": [ "iflesh" ],
@@ -587,7 +587,7 @@
     },
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "ACID", "NORMAL" ],
-    "harvest": "acidant_med",
+    "harvest": "arachnid_acid",
     "flags": [ "ACIDPROOF", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS" ]
   },
   {
