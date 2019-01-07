@@ -268,7 +268,7 @@
     "description": "Whether due to lack of exercise and poor diet, or due to a natural disinclination to physical endurance, you tire due to physical exertion much more readily than others and find it harder to catch your breath afterwards.  Your maximum stamina is 25% lower than usual.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "RAT", "BEAST", "CATTLE", "ELFA" ],
+    "category": [ "BEAST", "CATTLE", "ELFA" ],
     "stamina_regen_modifier": -0.2
   },
   {
