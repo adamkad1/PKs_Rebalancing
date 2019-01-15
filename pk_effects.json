@@ -76,7 +76,7 @@
       "thirst_tick": [10],
       "thirst_chance": [10],
       "thirst_max_val": [25],
-      "vomit_chance": [2000]
+      "vomit_chance": [3000]
     },
     "scaling_mods": {
       "thirst_chance": [-1],
