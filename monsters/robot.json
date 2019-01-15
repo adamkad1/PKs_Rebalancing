@@ -10,7 +10,6 @@
     "type": "MONSTER",
     "copy-from": "mon_secubot",
     "vision_night": 10,
-    "death_function": [ "SMOKEBURST" ]
   },
   {
     "id": "mon_copbot",

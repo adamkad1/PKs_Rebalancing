@@ -581,10 +581,12 @@
         "ranges": [ [ 2, 3, "DEFAULT" ] ]
       }
     ],
-    "upgrades":{
+// this produces an error so disable for now
+/*    "upgrades":{
       "into_group": "GROUP_ANT_ACID_UPGRADE",
       "half_life": 5
     },
+*/
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "ACID", "NORMAL" ],
     "harvest": "arachnid_acid",
