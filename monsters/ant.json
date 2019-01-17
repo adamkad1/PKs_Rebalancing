@@ -26,13 +26,7 @@
     "armor_acid": 2,
     "vision_day": 5,
     "vision_night": 5,
-    "special_attacks": [
-      [ "ant_dinject", 40 ],
-      [ "ANTQUEEN", 3 ],
-      [ "FLAMETHROWER", 20 ],
-      [ "SHRIEK_ALERT", 5 ],
-      [ "UPGRADE", 3 ]
-    ],
+    "special_attacks": [ [ "ant_dinject", 40 ], [ "ANTQUEEN", 3 ], [ "FLAMETHROWER", 20 ], [ "SHRIEK_ALERT", 5 ], [ "UPGRADE", 3 ] ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "QUEEN", "CLIMBS", "FIREPROOF", "BASHES" ]
@@ -46,7 +40,7 @@
     "species": [ "INSECT" ],
     "diff": 25,
     "size": "LARGE",
-	"harvest": "arachnid",
+    "harvest": "arachnid",
     "hp": 90,
     "speed": 90,
     "material": [ "iflesh" ],
@@ -64,13 +58,7 @@
     "armor_acid": 4,
     "vision_day": 20,
     "vision_night": 5,
-    "special_attacks": [
-      [ "ant_dinject", 30 ],
-      [ "ANTQUEEN", 90 ],
-      [ "FLAMETHROWER", 50 ],
-      [ "SHRIEK_ALERT", 15 ],
-      [ "SHRIEK_STUN", 1 ]
-    ],
+    "special_attacks": [ [ "ant_dinject", 30 ], [ "ANTQUEEN", 90 ], [ "FLAMETHROWER", 50 ], [ "SHRIEK_ALERT", 15 ], [ "SHRIEK_STUN", 1 ] ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "CLIMBS", "FIREPROOF", "FLIES", "BASHES" ]
@@ -84,7 +72,7 @@
     "species": [ "INSECT" ],
     "diff": 16,
     "size": "MEDIUM",
-	"harvest": "arachnid",
+    "harvest": "arachnid",
     "hp": 80,
     "speed": 105,
     "material": [ "iflesh" ],
@@ -95,9 +83,7 @@
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 10,
-    "melee_damage": [
-      { "damage_type": "stab", "amount": 6 }
-    ],
+    "melee_damage": [ { "damage_type": "stab", "amount": 6 } ],
     "dodge": 2,
     "armor_bash": 5,
     "armor_cut": 8,
@@ -152,7 +138,7 @@
     "species": [ "INSECT" ],
     "diff": 7,
     "size": "MEDIUM",
-	"harvest": "arachnid",
+    "harvest": "arachnid",
     "hp": 40,
     "speed": 90,
     "material": [ "iflesh" ],
@@ -173,17 +159,18 @@
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 20,
+        "accuracy": 5,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 5, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 8, "armor_multiplier": 0.8 }
         ]
       }
     ],
-    "upgrades":{
-      "into_group": "GROUP_DRONE",
-      "half_life": 5
-    },
+    "upgrades": { "into_group": "GROUP_DRONE", "half_life": 5 },
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_WEAK" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "CHITIN", "CLIMBS" ]
@@ -199,9 +186,7 @@
     "melee_skill": 5,
     "melee_dice": 1,
     "melee_dice_sides": 8,
-    "melee_damage": [
-      { "damage_type": "bash", "amount": 2 }
-    ],
+    "melee_damage": [ { "damage_type": "bash", "amount": 2 } ],
     "melee_cut": 5,
     "dodge": 2,
     "armor_bash": 8,
@@ -212,7 +197,11 @@
     "special_attacks": [
       [ "GRAB", 60 ],
       [ "ant_sinject", 20 ],
-      { "type": "bite", "cooldown": 15, "accuracy": 7, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 15,
+        "accuracy": 7,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 6, "armor_multiplier": 0.8 }
@@ -220,10 +209,7 @@
       }
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "FIRE" ],
-    "upgrades": {
-      "half_life": 21,
-      "into_group": "GROUP_SOLDIER"
-    },
+    "upgrades": { "half_life": 21, "into_group": "GROUP_SOLDIER" },
     "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS" ]
   },
   {
@@ -235,7 +221,7 @@
     "species": [ "INSECT" ],
     "diff": 7,
     "size": "SMALL",
-	"harvest": "arachnid",
+    "harvest": "arachnid",
     "hp": 40,
     "speed": 90,
     "material": [ "iflesh" ],
@@ -253,11 +239,7 @@
     "armor_fire": 5,
     "vision_day": 7,
     "vision_night": 7,
-    "special_attacks": [
-      [ "scrib", 40 ],
-      [ "SHRIEK_ALERT", 40 ],
-      [ "SHRIEK_STUN", 1 ]
-    ],
+    "special_attacks": [ [ "scrib", 40 ], [ "SHRIEK_ALERT", 40 ], [ "SHRIEK_STUN", 1 ] ],
     "anger_triggers": [ "FRIEND_DIED", "HURT" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "CHITIN", "CLIMBS" ]
@@ -271,7 +253,7 @@
     "species": [ "INSECT" ],
     "diff": 10,
     "size": "MEDIUM",
-	"harvest": "arachnid",
+    "harvest": "arachnid",
     "hp": 65,
     "speed": 105,
     "material": [ "iflesh" ],
@@ -282,9 +264,7 @@
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 10,
-    "melee_damage": [
-      { "damage_type": "bash", "amount": 3 }
-    ],
+    "melee_damage": [ { "damage_type": "bash", "amount": 3 } ],
     "melee_cut": 4,
     "dodge": 1,
     "armor_bash": 8,
@@ -296,7 +276,11 @@
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 12, "accuracy": 7, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 12,
+        "accuracy": 7,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 8, "armor_multiplier": 0.8 }
@@ -316,7 +300,7 @@
     "species": [ "INSECT" ],
     "diff": 20,
     "size": "MEDIUM",
-	"harvest": "arachnid",
+    "harvest": "arachnid",
     "hp": 90,
     "speed": 110,
     "material": [ "iflesh" ],
@@ -337,7 +321,11 @@
     "special_attacks": [
       [ "GRAB", 60 ],
       [ "ant_sinject", 20 ],
-      { "type": "bite", "cooldown": 15, "accuracy": 9, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 15,
+        "accuracy": 9,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 14, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.8 }
@@ -357,7 +345,7 @@
     "species": [ "INSECT" ],
     "diff": 16,
     "size": "MEDIUM",
-	"harvest": "arachnid",
+    "harvest": "arachnid",
     "hp": 60,
     "speed": 125,
     "material": [ "iflesh" ],
@@ -368,9 +356,7 @@
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 6,
-    "melee_damage": [
-      { "damage_type": "acid", "amount": 1 }
-    ],
+    "melee_damage": [ { "damage_type": "acid", "amount": 1 } ],
     "melee_cut": 4,
     "dodge": 2,
     "armor_bash": 8,
@@ -384,7 +370,11 @@
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 25, "accuracy": 8, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 25,
+        "accuracy": 8,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.8 }
@@ -392,7 +382,8 @@
       },
       {
         "id": "hammer",
-        "cooldown": 40, "moves": 250,
+        "cooldown": 40,
+        "moves": 250,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 12, "armor_multiplier": 0.8 },
           { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.8 }
@@ -402,10 +393,7 @@
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "PLAYER_WEAK", "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "upgrades": {
-      "half_life": 28,
-      "into": "mon_ant_soldier_pk"
-    },
+    "upgrades": { "half_life": 28, "into": "mon_ant_soldier_pk" },
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS", "BASHES" ]
   },
   {
@@ -417,7 +405,7 @@
     "species": [ "INSECT" ],
     "diff": 20,
     "size": "MEDIUM",
-	"harvest": "arachnid",
+    "harvest": "arachnid",
     "hp": 75,
     "speed": 125,
     "material": [ "iflesh" ],
@@ -428,9 +416,7 @@
     "melee_skill": 7,
     "melee_dice": 2,
     "melee_dice_sides": 6,
-    "melee_damage": [
-      { "damage_type": "acid", "amount": 1 }
-    ],
+    "melee_damage": [ { "damage_type": "acid", "amount": 1 } ],
     "melee_cut": 4,
     "dodge": 3,
     "armor_bash": 12,
@@ -444,13 +430,20 @@
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 25, "accuracy": 10, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 25,
+        "accuracy": 10,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 14, "armor_multiplier": 0.8 },
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 }
         ]
       },
-      { "id": "hammer", "cooldown": 40, "moves": 250,
+      {
+        "id": "hammer",
+        "cooldown": 40,
+        "moves": 250,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 16, "armor_multiplier": 0.8 },
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 }
@@ -490,12 +483,7 @@
     "vision_day": 5,
     "vision_night": 10,
     "starting_ammo": { "bot_ant_acid_ultralisk": 1 },
-    "special_attacks": [
-      [ "GRENADIER_ELITE", 5 ],
-      [ "ANTQUEEN", 3 ],
-      [ "UPGRADE", 3 ],
-      [ "scrib", 20 ]
-    ],
+    "special_attacks": [ [ "GRENADIER_ELITE", 5 ], [ "ANTQUEEN", 3 ], [ "UPGRADE", 3 ], [ "scrib", 20 ] ],
     "emit_fields": [ "emit_acid_small" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL", "ACID" ],
@@ -558,7 +546,11 @@
     "special_attacks": [
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 30, "accuracy": 5, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 30,
+        "accuracy": 5,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 4, "armor_multiplier": 0.5 }
@@ -581,12 +573,6 @@
         "ranges": [ [ 2, 3, "DEFAULT" ] ]
       }
     ],
-// this produces an error so disable for now
-/*    "upgrades":{
-      "into_group": "GROUP_ANT_ACID_UPGRADE",
-      "half_life": 5
-    },
-*/
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "ACID", "NORMAL" ],
     "harvest": "arachnid_acid",
@@ -621,7 +607,11 @@
     "special_attacks": [
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 30, "accuracy": 5, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 30,
+        "accuracy": 5,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 4, "armor_multiplier": 0.5 }
@@ -677,7 +667,11 @@
     "vision_night": 4,
     "special_attacks": [
       [ "wound_minor", 20 ],
-      { "type": "bite", "cooldown": 20, "accuracy": 6, "no_infection_chance": 16,
+      {
+        "type": "bite",
+        "cooldown": 20,
+        "accuracy": 6,
+        "no_infection_chance": 16,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 12, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 5, "armor_multiplier": 0.5 }
@@ -733,12 +727,7 @@
     "armor_cut": 14,
     "vision_day": 25,
     "vision_night": 5,
-    "special_attacks": [
-      [ "ACID", 60 ],
-      [ "ACID_BARF", 60 ],
-      [ "wound_minor", 40 ],
-      [ "scrib", 60 ]
-   ],
+    "special_attacks": [ [ "ACID", 60 ], [ "ACID_BARF", 60 ], [ "wound_minor", 40 ], [ "scrib", 60 ] ],
     "death_function": "NORMAL",
     "harvest": "arachnid_acid",
     "flags": [ "ACIDPROOF", "POISON", "SEES", "HEARS", "SMELLS", "CLIMBS" ],
@@ -777,19 +766,25 @@
       [ "SMASH", 90 ],
       [ "ACID", 75 ],
       [ "hammer", 30 ],
-      { "id": "wound_minor", "cooldown": 30, "accuracy": 6,
+      {
+        "id": "wound_minor",
+        "cooldown": 30,
+        "accuracy": 6,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 8, "armor_multiplier": 0.5 }
         ]
       },
-      { "id": "slash", "cooldown": 30, "accuracy": 6,
+      {
+        "id": "slash",
+        "cooldown": 30,
+        "accuracy": 6,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 16, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 6, "armor_multiplier": 0.5 }
         ]
       }
-   ],
+    ],
     "death_function": "NORMAL",
     "harvest": "arachnid_acid",
     "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "CHITIN" ],

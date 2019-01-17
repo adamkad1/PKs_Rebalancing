@@ -9,7 +9,7 @@
     "species": [ "NETHER" ],
     "diff": 50,
     "size": "LARGE",
-	"harvest": "exempt",
+    "harvest": "exempt",
     "hp": 90,
     "speed": 140,
     "symbol": "S",
@@ -30,15 +30,29 @@
     "special_attacks": [
       [ "DARKMAN", 15 ],
       { "id": "impale", "cooldown": 30, "accuracy": 3 },
-      { "id": "scratch", "cooldown": 15, "accuracy": 3,
+      {
+        "id": "scratch",
+        "cooldown": 15,
+        "accuracy": 3,
         "damage_max_instance": [
-          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.90 },
-          { "damage_type": "stab", "amount": 4, "armor_multiplier": 0.90 }
+          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.9 },
+          { "damage_type": "stab", "amount": 4, "armor_multiplier": 0.9 }
         ]
       }
     ],
     "death_function": [ "DARKMAN" ],
-    "flags": [ "NOHEAD", "HARDTOSHOOT", "WEBWALK", "FLIES", "PLASTIC", "ELECTRIC", "ACIDPROOF", "SUNDEATH", "REGENERATES_IN_DARK", "NO_BREATHE" ],
+    "flags": [
+      "NOHEAD",
+      "HARDTOSHOOT",
+      "WEBWALK",
+      "FLIES",
+      "PLASTIC",
+      "ELECTRIC",
+      "ACIDPROOF",
+      "SUNDEATH",
+      "REGENERATES_IN_DARK",
+      "NO_BREATHE"
+    ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
     "fear_triggers": [ "FIRE" ]
   },
@@ -51,7 +65,7 @@
     "species": [ "NETHER" ],
     "diff": 14,
     "size": "SMALL",
-	"harvest": "exempt",
+    "harvest": "exempt",
     "hp": 40,
     "speed": 130,
     "symbol": "A",
@@ -63,15 +77,29 @@
     "melee_dice_sides": 1,
     "melee_cut": 4,
     "dodge": 7,
-    "melee_damage": [
-      { "damage_type": "cold", "amount": 2 }
-    ],
+    "melee_damage": [ { "damage_type": "cold", "amount": 2 } ],
     "vision_day": 10,
     "vision_ngiht": 50,
     "special_attacks": [ [ "DISAPPEAR", 180 ] ],
     "special_when_hit": [ "ZAPBACK", 100 ],
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "HARDTOSHOOT", "GRABS", "WEBWALK", "FLIES", "PLASTIC", "SUNDEATH", "ELECTRIC", "ACIDPROOF", "HIT_AND_RUN", "NO_BREATHE", "NOGIB" ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "GOODHEARING",
+      "NOHEAD",
+      "HARDTOSHOOT",
+      "GRABS",
+      "WEBWALK",
+      "FLIES",
+      "PLASTIC",
+      "SUNDEATH",
+      "ELECTRIC",
+      "ACIDPROOF",
+      "HIT_AND_RUN",
+      "NO_BREATHE",
+      "NOGIB"
+    ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
     "fear_triggers": [ "FIRE" ]
   },
@@ -97,10 +125,7 @@
     "melee_dice": 3,
     "melee_dice_sides": 4,
     "melee_cut": 3,
-    "attack_effs": [
-      { "id": "attention", "duration": 7700 },
-      { "id": "evil", "duration": 14400 }
-    ],
+    "attack_effs": [ { "id": "attention", "duration": 7700 }, { "id": "evil", "duration": 14400 } ],
     "dodge": 3,
     "vision_day": 40,
     "vision_night": 20,
@@ -108,10 +133,10 @@
       [ "FEAR_PARALYZE", 5 ],
       [ "FLESH_GOLEM", 20 ],
       [ "hammer", 20 ],
-      { "type": "bite", "cooldown": 20,
-        "damage_max_instance": [
-          { "damage_type": "cut", "amount": 15, "armor_multiplier": 0.75 }
-        ]
+      {
+        "type": "bite",
+        "cooldown": 20,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 15, "armor_multiplier": 0.75 } ]
       }
     ],
     "death_drops": "default_zombie_clothes",
@@ -148,10 +173,11 @@
     "vision_night": 15,
     "special_attacks": [
       [ "hammer", 15 ],
-      { "id": "diseased swipe", "cooldown": 30, "accuracy": 6,
-        "damage_max_instance": [
-          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.85 }
-        ]
+      {
+        "id": "diseased swipe",
+        "cooldown": 30,
+        "accuracy": 6,
+        "damage_max_instance": [ { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.85 } ]
       }
     ],
     "death_function": [ "NORMAL" ],
@@ -181,17 +207,8 @@
     "dodge": 3,
     "armor_bash": 5,
     "armor_cut": 5,
-    "attack_effs": [
-      { "id": "attention", "duration": 4400 },
-      { "id": "evil", "duration": 3000 }
-    ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [
-        [ "spearmelee_pk", 50 ],
-        [ "church", 95 ]
-      ]
-    },
+    "attack_effs": [ { "id": "attention", "duration": 4400 }, { "id": "evil", "duration": 3000 } ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "spearmelee_pk", 50 ], [ "church", 95 ] ] },
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS" ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
@@ -221,17 +238,8 @@
     "dodge": 2,
     "armor_bash": 3,
     "armor_cut": 3,
-    "special_attacks": [
-      [ "impale", 20 ],
-      [ "wound_minor", 5 ]
-    ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [
-        [ "spearmelee_pk", 10 ],
-        [ "church", 95 ]
-      ]
-    },
+    "special_attacks": [ [ "impale", 20 ], [ "wound_minor", 5 ] ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "spearmelee_pk", 10 ], [ "church", 95 ] ] },
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS" ],
     "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED" ],
@@ -275,16 +283,9 @@
       [ "RANGED_PULL", 5 ],
       [ "impale", 20 ],
       [ "wound_minor", 3 ],
-      { "id": "scratch",
-        "damage_max_instance": [
-          { "damage_type": "cut", "amount": 25, "armor_multiplier": 0.8 }
-        ]
-      }
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 25, "armor_multiplier": 0.8 } ] }
     ],
-    "upgrades": {
-      "half_life": 700,
-      "into": "mon_nuculais"
-    },
+    "upgrades": { "half_life": 700, "into": "mon_nuculais" },
     "death_function": [ "MELT" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "GRABS", "QUEEN" ],
     "placate_triggers": [ "MEAT" ]
@@ -310,9 +311,7 @@
     "melee_dice_sides": 7,
     "melee_cut": 0,
     "dodge": 3,
-    "melee_damage": [
-      { "damage_type": "biological", "amount": 6 }
-    ],
+    "melee_damage": [ { "damage_type": "biological", "amount": 6 } ],
     "armor_bash": 6,
     "armor_stab": 2,
     "armor_cut": 6,
@@ -324,11 +323,11 @@
     "special_attacks": [
       [ "impale", 30 ],
       { "id": "slash", "cooldown": 20, "accuracy": 6 },
-      { "id": "scratch", "cooldown": 30, "accuracy": 6,
-        "damage_max_instance": [
-          { "damage_type": "cut", "amount": 20, "armor_multiplier": 0.8 },
-          { "damage_type": "true", "amount": 6 }
-        ]
+      {
+        "id": "scratch",
+        "cooldown": 30,
+        "accuracy": 6,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 20, "armor_multiplier": 0.8 }, { "damage_type": "true", "amount": 6 } ]
       }
     ],
     "death_function": [ "MELT" ],
