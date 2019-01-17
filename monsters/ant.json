@@ -472,7 +472,7 @@
   {
     "id": "mon_ant_acid_larva",
     "type": "MONSTER",
-    "copy-from": "acidic ant larva",
+    "copy-from": "mon_ant_acid_larva",
     "name": "acidic larval ant",
     "description": "A squirming yellow grub that seems to be oozing liquid from both ends of its body.  It has soft-looking chitin - kind of like a crab.",
     "default_faction": "ant",
@@ -529,7 +529,7 @@
         "ranges": [ [ 2, 3, "DEFAULT" ] ]
       }
     ],
-    "extend": { "anger_triggers": [ "FIRE" ], "upgrades": { "into_group": "GROUP_ANT_ACID_UPGRADE", "half_life": 5 } }
+    "extend": { "anger_triggers": [ "FIRE" ], "upgrades": { "into_group": "GROUP_ANT_ACID_UPGRADE", "half_life": 5 } },
     "delete": { "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_CLOSE" ], "upgrades": { "age_grow": 14, "into": "mon_ant_acid_soldier" } }
   },
   {

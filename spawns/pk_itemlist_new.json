@@ -460,5 +460,34 @@
       { "item": "bone_tainted", "damage": [ 0, 3 ], "prob": 50, "count": [ 1, 3 ] },
       { "item": "slime_scrap", "prob": 75, "count": [ 1, 2 ] }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_biollante_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "biollante", "prob": 35 },
+      { "group": "biollante", "prob": 35 },
+      { "group": "biollante", "prob": 35 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_triffid_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "fungal_sting", "prob": 10 },
+      { "group": "biollante", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_fungal_fighter_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "fungal_sting", "prob": 100 },
+      { "group": "fungal_fighter_sting", "prob": 75 },
+      { "group": "fungal_fighter_sting", "prob": 75 }
+    ]
   }
 ]

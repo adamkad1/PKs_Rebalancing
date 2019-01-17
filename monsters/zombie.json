@@ -1117,51 +1117,14 @@
   },
   {
     "id": "mon_zombie_tough",
+    "copy-from": "mon_zombie_tough",
     "type": "MONSTER",
     "name": "tough zombie",
     "description": "Once an athletic human, now a brutal monster.  Its facial features are twisted into an expression of pure rage.",
-    "default_faction": "zombie",
-    "categories": [ "CLASSIC" ],
-    "species": [ "ZOMBIE", "HUMAN" ],
-    "diff": 3,
-    "size": "MEDIUM",
-    "hp": 100,
-    "speed": 85,
-    "material": [ "flesh" ],
-    "harvest": "zombie",
-    "symbol": "Z",
-    "color": "light_red",
-    "aggression": 100,
-    "morale": 100,
-    "melee_skill": 4,
-    "melee_dice": 3,
-    "melee_dice_sides": 3,
-    "melee_cut": 1,
-    "dodge": 1,
-    "armor_bash": 2,
-    "armor_cut": 1,
-    "vision_night": 3,
     "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.7 }, [ "GRAB", 60 ], [ "scratch", 20 ] ],
-    "death_drops": "default_zombie_death_drops",
-    "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_smoker",
-    "upgrades": { "half_life": 24, "into_group": "GROUP_ZOMBIE_TOUGH" },
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "POISON",
-      "BLEED",
-      "NO_BREATHE",
-      "REVIVES",
-      "BONES",
-      "PUSH_MON",
-      "FILTHY"
-    ]
+    "extend": { "upgrades": { "half_life": 24, "into_group": "GROUP_ZOMBIE_TOUGH" } },
+    "delete": { "upgrades": { "half_life": 28, "into_group": "GROUP_ZOMBIE_UPGRADE" } }
   },
   {
     "id": "mon_zombie_tough_2",
@@ -1294,51 +1257,14 @@
   },
   {
     "id": "mon_zombie_electric",
+    "copy-from": "mon_zombie_electric",
     "type": "MONSTER",
-    "edit-mode": "override",
     "name": "shocker zombie",
     "description": "A human body with pale blue flesh, crackling with electrical energy.",
-    "default_faction": "zombie",
-    "species": [ "ZOMBIE", "HUMAN" ],
     "diff": 12,
-    "size": "MEDIUM",
-    "hp": 85,
-    "speed": 105,
-    "material": [ "flesh" ],
-    "harvest": "CBM_CIV",
-    "symbol": "Z",
-    "color": "light_cyan",
-    "aggression": 100,
-    "morale": 100,
-    "melee_skill": 4,
-    "melee_dice": 1,
-    "melee_dice_sides": 3,
-    "melee_damage": [ { "damage_type": "electric", "amount": 8 } ],
-    "melee_cut": 0,
-    "dodge": 2,
-    "luminance": 8,
-    "special_attacks": [ [ "SHOCKSTORM", 25 ] ],
-    "special_when_hit": [ "ZAPBACK", 100 ],
-    "death_drops": "default_zombie_death_drops",
-    "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "POISON",
-      "ELECTRIC",
-      "CBM_CIV",
-      "NO_BREATHE",
-      "REVIVES",
-      "BONES",
-      "PUSH_MON"
-    ],
     "burn_into": "mon_zombie_scorched_shocker",
-    "upgrades": { "half_life": 22, "into_group": "GROUP_ZOMBIE_ELECTRIC" }
+    "extend": { "upgrades": { "half_life": 22, "into_group": "GROUP_ZOMBIE_ELECTRIC" } },
+    "delete": { "upgrades": { "half_life": 28, "into": "mon_zombie_nullfield" } }
   },
   {
     "id": "mon_zombie_electric_pk",
@@ -1453,7 +1379,6 @@
         "damage_max_instance": [ { "damage_type": "bash", "amount": 24, "armor_multiplier": 0.75 } ]
       }
     ],
-    "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_fiend_pk"
   },
   {
@@ -1484,7 +1409,6 @@
         "damage_max_instance": [ { "damage_type": "bash", "amount": 28, "armor_multiplier": 0.7 } ]
       }
     ],
-    "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend_pk"
   },
@@ -1508,7 +1432,6 @@
     "armor_cut": 1,
     "vision_day": 25,
     "vision_night": 15,
-    "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched"
   },
   {
@@ -1976,7 +1899,6 @@
         ]
       }
     ],
-    "death_drops": "mon_zombie_swimmer_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched_pk"
   },
