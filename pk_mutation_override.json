@@ -222,7 +222,8 @@
   },
   {
     "type": "mutation",
-    "id": "EAGLEEYED", "//": "Can't change the ID as that breaks save-compatibility.",
+    "id": "EAGLEEYED",
+    "//": "Can't change the ID as that breaks save-compatibility.",
     "name": "Scout",
     "points": 1,
     "description": "You're an excellent navigator and your ability to spot distant landmarks is unmatched.  Your sight radius on the overmap extends beyond the normal range.",
@@ -658,9 +659,7 @@
     "ugliness": 4,
     "description": "You've grown a set of gills, running from your neck up behind your ears.  They allow you to breathe easily over and underwater.  Slightly increases wet benefits.",
     "cancels": [ "LUNGS", "LUNGS_2" ],
-    "wet_protection": [
-      { "part": "HEAD", "good": 2 }
-    ],
+    "wet_protection": [ { "part": "HEAD", "good": 2 } ],
     "stamina_regen_modifier": 0.25
   },
   {
@@ -835,9 +834,7 @@
       [ "FOOT_L", 10 ],
       [ "FOOT_R", 10 ]
     ],
-    "passive_mods": {
-      "dex_mod": -1
-    },
+    "passive_mods": { "dex_mod": -1 },
     "armor": [ { "parts": "ALL", "bash": 8, "cut": 12, "acid": 3, "bio": 2, "heat": 2 } ]
   },
   {
@@ -1024,10 +1021,7 @@
     "description": "Your pseudopod-like limbs can fit into anything!  +6 Dexterity, -4 Strength.",
     "valid": false,
     "purifiable": false,
-    "passive_mods": {
-      "dex_mod": 6,
-      "str_mod": -4
-    },
+    "passive_mods": { "dex_mod": 6, "str_mod": -4 },
     "hp_adjustment": 6
   },
   {
@@ -1068,10 +1062,7 @@
     "visibility": 3,
     "ugliness": 2,
     "description": "Your frame has adapted for life in confined spaces.  You seem a little shorter and bulkier, trading muscle mass for mobility.  +3 Strength, -2 Dexterity.",
-    "passive_mods": {
-      "str_mod": 3,
-      "dex_mod": -2
-    }
+    "passive_mods": { "str_mod": 3, "dex_mod": -2 }
   },
   {
     "type": "mutation",
@@ -1166,7 +1157,7 @@
     "visibility": 1,
     "ugliness": 1,
     "mixed_effect": true,
-    "description": "You have grown noticeably taller and broader (torso, arms: +2 bash).  Much of it is useful muscle mass (Strength +2), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).", 
+    "description": "You have grown noticeably taller and broader (torso, arms: +2 bash).  Much of it is useful muscle mass (Strength +2), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).",
     "category": [ "BEAST", "CHIMERA", "PLANT" ],
     "armor": [ { "parts": [ "TORSO", "ARM_L", "ARM_R" ], "bash": 2 } ],
     "hp_adjustment": -2,
@@ -1203,7 +1194,7 @@
       [ "HEAD", 5 ],
       [ "MOUTH", 5 ],
       [ "ARM_L", 5 ],
-      [ "ARM_R", 5],
+      [ "ARM_R", 5 ],
       [ "HAND_L", 5 ],
       [ "HAND_R", 5 ],
       [ "LEG_L", 5 ],
@@ -1211,9 +1202,7 @@
       [ "FOOT_L", 5 ],
       [ "FOOT_R", 5 ]
     ],
-    "passive_mods": {
-      "str_mod": 3
-    },
+    "passive_mods": { "str_mod": 3 },
     "armor": [ { "parts": [ "ALL" ], "bash": 3, "cut": 1 } ],
     "hp_adjustment": -2,
     "metabolism_modifier": 0.2,
@@ -1228,9 +1217,7 @@
     "ugliness": 4,
     "mixed_effect": true,
     "description": "You have grown even more massive (all: +4 bash, +1 cut), to the point where you cannot usefully fit into human-sized clothing or vehicles.  Much of it is powerful muscle mass (Strength +5), but it's a real pain to haul around.",
-    "passive_mods": {
-      "str_mod": 5
-    },
+    "passive_mods": { "str_mod": 5 },
     "armor": [ { "parts": [ "ALL" ], "bash": 4, "cut": 1 } ],
     "hp_adjustment": -6,
     "metabolism_modifier": 0.3,
@@ -1247,9 +1234,7 @@
     "description": "Your cardiovascular system has caught up with your huge muscular physique (all: +4 bash, +1 cut), so who needs pathetic human cars?  Strength +5.",
     "threshreq": [ "THRESH_CHIMERA" ],
     "category": [ "CHIMERA" ],
-    "passive_mods": {
-      "str_mod": 5
-    },
+    "passive_mods": { "str_mod": 5 },
     "armor": [ { "parts": [ "ALL" ], "bash": 4, "cut": 1 } ],
     "hp_adjustment": -6,
     "metabolism_modifier": 0.3,
@@ -1329,9 +1314,7 @@
     "visibility": 1,
     "ugliness": 3,
     "description": "Your tongue is forked, like that of a reptile.  +1 Perception.",
-    "passive_mods": {
-      "per_mod": 1
-    }
+    "passive_mods": { "per_mod": 1 }
   },
   {
     "type": "mutation",
@@ -1547,7 +1530,7 @@
     "points": -2,
     "visibility": 8,
     "ugliness": 2,
-    "bodytemp_modifiers": [10, 25],
+    "bodytemp_modifiers": [ 10, 25 ],
     "description": "Your arms have grown vibrantly colored feathers.  They effectively waterproof your arms and take the edge off hits (arms: +1 bash, +1 cut), but really get in the way.  They're simply too small to help you in the air.",
     "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 1, "cut": 1 } ]
   },
@@ -1560,10 +1543,7 @@
     "ugliness": 4,
     "mixed_effect": true,
     "description": "Your arms have transformed into tentacles, resulting in a bonus of 1 to dexterity, permanent hand encumbrance of 25, and inability to wear gloves.  Somewhat decreases wet penalties.",
-    "encumbrance_always": [
-      [ "HAND_L", 25 ],
-      [ "HAND_R", 25 ]
-    ]
+    "encumbrance_always": [ [ "HAND_L", 25 ], [ "HAND_R", 25 ] ]
   },
   {
     "type": "mutation",
@@ -1573,10 +1553,7 @@
     "visibility": 8,
     "ugliness": 5,
     "description": "Your arms have transformed into four tentacles, resulting in a bonus of 1 to dexterity, permanent hand encumbrance of 25, and inability to wear gloves.  You can make up to 3 extra attacks with them.  Somewhat decreases wet penalties.",
-    "encumbrance_always": [
-      [ "HAND_L", 25 ],
-      [ "HAND_R", 25 ]
-    ]
+    "encumbrance_always": [ [ "HAND_L", 25 ], [ "HAND_R", 25 ] ]
   },
   {
     "type": "mutation",
@@ -1586,10 +1563,7 @@
     "visibility": 9,
     "ugliness": 6,
     "description": "Your arms have transformed into eight tentacles, resulting in a bonus of 1 to dexterity, permanent hand encumbrance of 25, and inability to wear gloves.  You can make up to 7 extra attacks with them.  Somewhat decreases wet penalties.",
-    "encumbrance_always": [
-      [ "HAND_L", 25 ],
-      [ "HAND_R", 25 ]
-    ]
+    "encumbrance_always": [ [ "HAND_L", 25 ], [ "HAND_R", 25 ] ]
   },
   {
     "type": "mutation",
