@@ -44,11 +44,7 @@
     "copy-from": "mon_biollante",
     "armor_acid": 4,
     "emit_fields": [ "emit_gas_plume", "emit_radiation_plume" ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [ [ "biollante", 35 ], [ "biollante", 35 ], [ "biollante", 35 ] ],
-      "//": "do duplicate item_groups work here?  Yes.  they do."
-    },
+    "death_drops": "mon_biollante_death_drops",
     "upgrades": { "half_life": 14, "into": "mon_biollante_pk" },
     "flags": [ "NOHEAD", "IMMOBILE", "NO_BREATHE" ]
   },
@@ -56,7 +52,7 @@
     "id": "mon_triffid",
     "type": "MONSTER",
     "copy-from": "mon_triffid",
-    "death_drops": { "subtype": "collection", "groups": [ [ "fungal_sting", 10 ], [ "biollante", 10 ] ] },
+    "death_drops": "mon_triffid_death_drops",
     "upgrades": { "half_life": 6, "into_group": "GROUP_TRIFFID_PK" },
     "flags": [ "SEES", "SMELLS", "BASHES", "GROUP_BASH", "NOHEAD", "PARALYZEVENOM", "PUSH_MON" ]
   },
@@ -75,10 +71,7 @@
     "vision_day": 30,
     "vision_night": 30,
     "special_attacks": [ [ "PARA_STING", 10 ], [ "para_poison", 30 ] ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [ [ "fungal_sting", 100 ], [ "fungal_fighter_sting", 75 ], [ "fungal_fighter_sting", 75 ] ]
-    },
+    "death_drops": "mon_fungal_fighter_death_drops",
     "upgrades": { "half_life": 21, "into_group": "GROUP_HISSER" }
   },
   {
