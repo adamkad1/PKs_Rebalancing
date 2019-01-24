@@ -401,7 +401,7 @@
   {
     "id": "mon_zombie_spitter",
     "type": "MONSTER",
-    "copy-from": "mon_zombie_acidic",
+    "copy-from": "mon_zombie_spitter",
     "attack_effs": [ { "id": "rad_tenths", "duration": 20 } ]
   },
   {
