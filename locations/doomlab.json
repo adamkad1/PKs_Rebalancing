@@ -2184,9 +2184,11 @@
         "f": "f_rack",
         "L": "f_locker",
         "}": "f_glass_fridge",
-        "D": "f_displaycase",
-        "1": "f_plant_seedling",
-        "2": "f_plant_mature"
+        "D": "f_displaycase"
+      },
+      "sealed_item": {
+        "1": { "items": { "item": "farming_seeds", "chance": 100 }, "furniture": "f_plant_seedling" },
+        "2": { "items": { "item": "farming_seeds", "chance": 100 }, "furniture": "f_plant_mature" }
       },
       "mapping": {
         "#": { "items": { "item": "hydro", "chance": 15 } },
