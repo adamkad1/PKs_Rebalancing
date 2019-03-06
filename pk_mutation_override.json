@@ -8,7 +8,7 @@
     "description": "You can move more quickly than most, resulting in a 15% speed bonus on sure footing.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "RAPTOR", "BEAST" ],
+    "category": [ "RAPTOR", "BEAST", "FISH", "LUPINE", "MOUSE", "INSECT" ],
     "metabolism_modifier": 0.05
   },
   {
@@ -20,7 +20,7 @@
     "description": "Your hearing is better than average, and you can hear distant sounds more easily.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "BIRD", "ELFA", "FELINE" ]
+    "category": [ "BIRD", "ELFA", "FELINE", "ALPHA", "MOUSE" ]
   },
   {
     "type": "mutation",
@@ -67,7 +67,7 @@
     "description": "You're just generally quick!  You get a 10% bonus to action points.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "FELINE" ],
+    "category": [ "FISH", "BIRD", "INSECT", "TROGLOBITE", "CHIMERA", "RAPTOR", "MOUSE", "FELINE" ],
     "metabolism_modifier": 0.05
   },
   {
@@ -89,7 +89,7 @@
     "points": 2,
     "description": "You heal faster when sleeping and will even recover small amount of HP when not sleeping.  This change in body chemistry strains your metabolism.",
     "starting_trait": true,
-    "category": [ "LIZARD" ],
+    "category": [ "LIZARD", "MEDICAL" ],
     "healing_awake": 0.2,
     "healing_resting": 0.5,
     "metabolism_modifier": 0.4,
@@ -103,7 +103,7 @@
     "points": 2,
     "description": "Your metabolism is a little slower, and you require less food than most.",
     "starting_trait": true,
-    "category": [ "LIZARD" ],
+    "category": [ "FISH", "BIRD", "INSECT", "TROGLOBITE", "LIZARD" ],
     "metabolism_modifier": -0.333
   },
   {
@@ -115,7 +115,7 @@
     "description": "You have always been able to fall asleep easily, even when sleeping in less than ideal circumstances.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "CHIMERA" ]
+    "category": [ "CHIMERA", "MOUSE", "INSECT" ]
   },
   {
     "type": "mutation",
@@ -126,7 +126,7 @@
     "description": "You have a high tolerance for pain.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "CHIMERA" ]
+    "category": [ "CHIMERA", "MEDICAL" ]
   },
   {
     "type": "mutation",
@@ -136,7 +136,7 @@
     "points": 2,
     "description": "You possess natural night vision, and can see further in the dark than most.  Activate to toggle NV-visible areas on or off.",
     "starting_trait": true,
-    "category": [ "LIZARD" ],
+    "category": [ "BIRD", "CATTLE", "INSECT", "LIZARD" ],
     "active": true,
     "starts_active": true
   },
@@ -225,7 +225,7 @@
     "starting_trait": true,
     "cancels": [ "NAUSEA" ],
     "threshreq": [ "THRESH_SLIME", "THRESH_CHIMERA", "THRESH_RAT" ],
-    "category": [ "SLIME", "CHIMERA", "RAT" ],
+    "category": [ "SLIME", "CHIMERA", "RAT", "MOUSE", "LUPINE" ],
     "active": true,
     "metabolism_modifier": 0.05,
     "thirst_modifier": 0.05
@@ -251,7 +251,7 @@
     "description": "You're an excellent navigator and your ability to spot distant landmarks is unmatched.  Your sight radius on the overmap extends beyond the normal range.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "FISH", "BIRD" ]
+    "category": [ "FISH", "BIRD", "MOUSE" ]
   },
   {
     "type": "mutation",
@@ -306,7 +306,7 @@
     "points": -2,
     "description": "Without your glasses, your seeing radius is severely reduced!  However, while wearing glasses this trait has no effect, and you are guaranteed to start with a pair.",
     "starting_trait": true,
-    "cancels": [ "20_15" ]
+    "cancels": [ "20_15", "URSINE_EYE", "EAGLEEYED" ]
   },
   {
     "type": "mutation",
@@ -384,7 +384,7 @@
     "points": -2,
     "description": "Your hearing is poor, and you may not hear quiet or far-off noises.",
     "starting_trait": true,
-    "category": [ "MEDICAL" ]
+    "category": [ "MEDICAL", "PLANT" ]
   },
   {
     "type": "mutation",
@@ -395,7 +395,7 @@
     "description": "You have a hard time falling asleep, even under the best circumstances!",
     "starting_trait": true,
     "valid": false,
-    "category": [ "ALPHA" ],
+    "category": [ "ALPHA", "MEDICAL" ],
     "fatigue_regen_modifier": -0.01
   },
   {
@@ -461,7 +461,7 @@
     "points": -1,
     "description": "Something in those heavily processed foods doesn't agree with you.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
     "starting_trait": true,
-    "category": [ "FELINE" ]
+    "category": [ "FELINE", "BEAST", "RAPTOR", "ALPHA" ]
   },
   {
     "type": "mutation",
@@ -504,7 +504,7 @@
     "starting_trait": true,
     "cancels": [ "SAVANT", "CHEMREBALANCE", "CHEMREBALANCE2" ],
     "threshreq": [ "THRESH_SLIME", "THRESH_MEDICAL", "THRESH_CHIMERA", "THRESH_ELFA", "THRESH_CATTLE" ],
-    "category": [ "CATTLE" ]
+    "category": [ "CATTLE", "SLIME", "MEDICAL", "CHIMERA", "ELFA" ]
   },
   {
     "type": "mutation",
@@ -569,9 +569,9 @@
     "points": -4,
     "description": "Your body can't take much abuse.  Its maximum HP is 25% lower than usual and you heal slightly slower.  Stacks with Glass Jaw.",
     "starting_trait": true,
-    "category": [ "CEPHALOPOD", "MEDICAL" ],
+    "category": [ "CEPHALOPOD", "MEDICAL", "MOUSE" ],
     "hp_modifier": -0.25,
-    "cancels": [ "HUGE" ]
+    "cancels": [ "HUGE", "TOUGH", "TOUGH2", "TOUGH3" ]
   },
   {
     "type": "mutation",
@@ -580,7 +580,7 @@
     "name": "Full Night Vision",
     "points": 6,
     "description": "You can see in pitch blackness as if you were wearing night-vision goggles.  Activate to toggle NV-visible areas on or off.",
-    "cancels": [ "20_15" ],
+    "cancels": [ "20_15", "ELFA_NV", "ELFA_FNV", "FEL_NV", "URSINE_EYE" ],
     "active": true,
     "starts_active": true
   },
@@ -593,7 +593,7 @@
     "visibility": 8,
     "ugliness": 5,
     "description": "Your eyes still bulge, yet your pupils look different somehow.  Water doesn't seem to cause any trouble at all, though.",
-    "cancels": [ "20_15" ]
+    "cancels": [ "20_15", "BIRD_EYE", "LIZ_EYE", "FEL_EYE", "URSINE_EYE", "COMPOUND_EYES", "ELFAEYES" ]
   },
   {
     "type": "mutation",
@@ -602,7 +602,7 @@
     "name": "Cephalopod Vision",
     "points": 3,
     "description": "Your brain has caught up with your eyes.  You can see much better in the dark, but sunlight seems much brighter now.  Activate to toggle NV-visible areas on or off.",
-    "cancels": [ "20_15" ],
+    "cancels": [ "20_15", "LIZ_IR", "FEL_NV", "NIGHTVISION", "NIGHTVISION2", "NIGHTVISION3", "ELFA_NV", "ELFA_FNV" ],
     "active": true,
     "starts_active": true
   },
@@ -624,7 +624,7 @@
     "name": "Fey Vision",
     "points": 3,
     "description": "The shadows don't seem as dark now.  Activate to toggle NV-visible areas on or off.",
-    "cancels": [ "20_15" ],
+    "cancels": [ "20_15", "LIZ_IR", "FEL_NV", "NIGHTVISION", "NIGHTVISION2", "NIGHTVISION3" ],
     "active": true,
     "starts_active": true
   },
@@ -635,7 +635,7 @@
     "name": "Fey Nightsight",
     "points": 5,
     "description": "You have great low-light vision now, though that doesn't allow you to perform fine tasks such as crafting and reading in darkness.  Activate to toggle NV-visible areas on or off.",
-    "cancels": [ "20_15" ],
+    "cancels": [ "20_15", "LIZ_IR", "FEL_NV", "NIGHTVISION", "NIGHTVISION2", "NIGHTVISION3" ],
     "active": true,
     "starts_active": true
   },
@@ -648,7 +648,7 @@
     "visibility": 2,
     "ugliness": -1,
     "description": "Your eyes have mutated, now having a slitted pupil and glittering in light, much like those of cats.  This is visually striking, but it isn't helping you see at night.",
-    "cancels": [ "20_15" ]
+    "cancels": [ "20_15", "ELFAEYES", "LIZ_EYE", "BIRD_EYE", "URSINE_EYE", "COMPOUND_EYES" ]
   },
   {
     "type": "mutation",
@@ -657,7 +657,7 @@
     "name": "Feline Vision",
     "points": 4,
     "description": "Your optic nerves and brain caught up with your eyes.  Now you can see pretty well at night.  Activate to toggle NV-visible areas on or off.",
-    "cancels": [ "20_15" ],
+    "cancels": [ "20_15", "ELFA_NV", "ELFA_FNV", "LIZ_IR", "NIGHTVISION", "NIGHTVISION2", "NIGHTVISION3" ],
     "active": true,
     "starts_active": true
   },
@@ -668,7 +668,7 @@
     "name": "Ursine Vision",
     "points": 1,
     "description": "Your visual processing has shifted: though you can see better in the dark, you're nearsighted in the light.  Maybe glasses would help.  Activate to toggle NV-visible areas on or off.",
-    "cancels": [ "20_15" ],
+    "cancels": [ "20_15", "ELFAEYES", "LIZ_EYE", "BIRD_EYE", "FEL_EYE", "COMPOUND_EYES", "NIGHTVISION", "NIGHTVISION2", "NIGHTVISION3", "MYOPIC" ],
     "active": true,
     "starts_active": true
   },
@@ -680,7 +680,7 @@
     "points": 5,
     "visibility": 1,
     "description": "Your vision has become particularly acute: you suspect you could pick out zombies much farther away.  +4 Perception.",
-    "cancels": [ "20_15" ]
+    "cancels": [ "20_15", "ELFAEYES", "FEL_EYE", "LIZ_EYE", "URSINE_EYE", "COMPOUND_EYES" ]
   },
   {
     "type": "mutation",
@@ -691,7 +691,7 @@
     "visibility": 2,
     "ugliness": -1,
     "description": "Your eyes have mutated, with a brilliant iris and slitted pupil similar to that of a lizard.  This is visually striking, but doesn't seem to affect your vision.",
-    "cancels": [ "20_15" ]
+    "cancels": [ "20_15", "ELFAEYES", "FEL_EYE", "URSINE_EYE", "BIRD_EYE", "COMPOUND_EYES" ]
   },
   {
     "type": "mutation",
@@ -700,7 +700,7 @@
     "name": "Reptilian IR",
     "points": 5,
     "description": "Your optic nerves and brain have mutated to catch up with your eyes, allowing you to see in the infrared spectrum.",
-    "cancels": [ "20_15" ]
+    "cancels": [ "20_15", "ELFA_NV", "ELFA_FNV", "FEL_NV", "INFRARED" ]
   },
   {
     "type": "mutation",
@@ -711,7 +711,7 @@
     "visibility": 5,
     "ugliness": 3,
     "description": "You've grown a set of gills in your neck, allowing you to breathe easily over and underwater.  Slightly increases wet benefits.",
-    "cancels": [ "LUNGS", "LUNGS_2" ],
+    "cancels": [ "LUNGS", "LUNGS_2", "GILLS_CEPH" ],
     "stamina_regen_modifier": 0.2
   },
   {
@@ -723,7 +723,7 @@
     "visibility": 4,
     "ugliness": 4,
     "description": "You've grown a set of gills, running from your neck up behind your ears.  They allow you to breathe easily over and underwater.  Slightly increases wet benefits.",
-    "cancels": [ "LUNGS", "LUNGS_2" ],
+    "cancels": [ "LUNGS", "LUNGS_2", "GILLS" ],
     "wet_protection": [ { "part": "HEAD", "good": 2 } ],
     "stamina_regen_modifier": 0.25
   },
@@ -1103,7 +1103,7 @@
     "description": "Your limbs are significantly more flexible than any pathetic human arm or leg.  +3 Dexterity, -2 Strength.",
     "purifiable": false,
     "threshreq": [ "THRESH_CEPHALOPOD" ],
-    "category": [ "CEPHALOPOD" ],
+    "category": [ "CEPHALOPOD", "SLIME", "ELFA" ],
     "hp_adjustment": 3
   },
   {
@@ -1130,7 +1130,7 @@
     "visibility": 9,
     "ugliness": 5,
     "description": "Your eyes are compound, like those of an insect.  This increases your perception by 2 so long as you aren't wearing eyewear.",
-    "cancels": [ "20_15" ]
+    "cancels": [ "20_15", "ELFAEYES", "FEL_EYE", "URSINE_EYE", "BIRD_EYE", "LIZ_EYE" ]
   },
   {
     "type": "mutation",
@@ -1172,7 +1172,7 @@
     "name": "Road-Runner",
     "points": 3,
     "description": "Your legs are extremely limber and fast-moving.  You move 30% faster on flat surfaces.",
-    "category": [ "INSECT" ],
+    "category": [ "INSECT", "SPIDER", "MOUSE" ],
     "metabolism_modifier": 0.08
   },
   {
@@ -1184,7 +1184,7 @@
     "visibility": 6,
     "ugliness": 3,
     "description": "You have a long tail that ends in a vicious stinger, like that of a scorpion.  It does not improve your balance at all, but allows for a powerful piercing attack.  Prevents wearing non-fabric pants.",
-    "category": [ "CHIMERA" ],
+    "category": [ "CHIMERA", "INSECT" ],
     "allow_soft_gear": true
   },
   {
@@ -1206,8 +1206,8 @@
     "name": "Resilient",
     "points": 2,
     "description": "You can survive injuries that would incapacitate humans: you get a 20% bonus to all hit points.  Stacks with Tough, etc.",
-    "threshreq": [ "THRESH_LUPINE" ],
-    "category": [ "LUPINE" ],
+    "threshreq": [ "THRESH_LUPINE", "THRESH_URSINE", "THRESH_CATTLE", "THRESH_CHIMERA", "THRESH_MEDICAL", "THRESH_LIZARD", "THRESH_BEAST" ],
+    "category": [ "LUPINE", "URSINE", "CATTLE", "CHIMERA","BEAST", "LIZARD", "MEDICAL" ],
     "hp_modifier_secondary": 0.2
   },
   {
@@ -1218,8 +1218,8 @@
     "points": 3,
     "description": "Not much scares you.  You get a 30% bonus to all hit points.  Stacks with Tough, etc.",
     "valid": false,
-    "threshreq": [ "THRESH_BEAST" ],
-    "category": [ "BEAST" ],
+    "threshreq": [ "THRESH_BEAST", "THRESH_URSINE", "THRESH_CATTLE", "THRESH_CHIMERA", "THRESH_MEDICAL" ],
+    "category": [ "BEAST", "URSINE", "CATTLE", "CHIMERA", "MEDICAL" ],
     "hp_modifier_secondary": 0.3
   },
   {
@@ -1231,7 +1231,7 @@
     "description": "Your mind and brain have adapted to your new place in the world: as one on top the food chain.  You can effortlessly master and maintain combat skills, but your critical thinking has atrophied further.",
     "valid": false,
     "purifiable": false,
-    "cancels": [ "SAVANT", "CHEMIMBALANCE" ]
+    "cancels": [ "SAVANT", "CHEMIMBALANCE", "PACIFIST" ]
   },
   {
     "type": "mutation",
@@ -1282,8 +1282,8 @@
     "points": 2,
     "visibility": 1,
     "description": "You carry your rugged body with the dignity you deserve (torso, arms: +2 bash).  Strength +2.",
-    "threshreq": [ "THRESH_BEAST", "THRESH_PLANT" ],
-    "category": [ "BEAST", "PLANT" ],
+    "threshreq": [ "THRESH_BEAST", "THRESH_PLANT", "THRESH_URSINE", "THRESH_CATTLE", "THRESH_LIZARD" ],
+    "category": [ "BEAST", "PLANT", "URSINE", "CATTLE", "LIZARD" ],
     "armor": [ { "parts": [ "TORSO", "ARM_L", "ARM_R" ], "bash": 2 } ],
     "hp_adjustment": -2,
     "metabolism_modifier": 0.2,
@@ -1346,8 +1346,8 @@
     "ugliness": 3,
     "mixed_effect": true,
     "description": "Your cardiovascular system has caught up with your huge muscular physique (all: +4 bash, +1 cut), so who needs pathetic human cars?  Strength +5.",
-    "threshreq": [ "THRESH_CHIMERA" ],
-    "category": [ "CHIMERA" ],
+    "threshreq": [ "THRESH_CHIMERA", "THRESH_URSINE", "THRESH_CATTLE" ],
+    "category": [ "CHIMERA", "URSINE", "CATTLE" ],
     "passive_mods": { "str_mod": 5 },
     "armor": [ { "parts": [ "ALL" ], "bash": 4, "cut": 1 } ],
     "hp_adjustment": -6,
@@ -1416,7 +1416,7 @@
     "name": "Dextrous",
     "points": 1,
     "description": "You are a little nimbler.  Dexterity + 1",
-    "category": [ "LUPINE" ]
+    "category": [ "LUPINE", "INSECT", "SLIME", "ALPHA" ]
   },
   {
     "type": "mutation",
@@ -1425,7 +1425,7 @@
     "name": "Extremely Dextrous",
     "points": 3,
     "description": "You are nimble and quick.  Dexterity + 4",
-    "category": [ "RAPTOR" ]
+    "category": [ "RAPTOR", "BIRD", "ELFA", "FELINE" ]
   },
   {
     "type": "mutation",
@@ -1458,7 +1458,7 @@
     "visibility": 3,
     "ugliness": 1,
     "description": "Your skin is rather pale.",
-    "category": [ "TROGLOBITE" ]
+    "category": [ "TROGLOBITE", "LUPINE" ]
   },
   {
     "type": "mutation",
