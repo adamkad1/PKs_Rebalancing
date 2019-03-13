@@ -203,6 +203,7 @@
   },
   {
     "id": "crowbar",
+	"copy-from": "crowbar",
     "type": "TOOL",
     "name": "crowbar",
     "description": "This is a hefty prying tool.  Use it to open locked doors without destroying them or to lift manhole covers.  You could also wield it to bash some heads in.",
@@ -216,7 +217,6 @@
     "techniques": [ "repose", "stuck_in_2" ],
     "symbol": ";",
     "color": "dark_gray",
-    "qualities": [ [ "PRY", 2 ] ],
     "use_action": "CROWBAR",
     "flags": [ "BELT_CLIP" ]
   },
@@ -242,6 +242,7 @@
   },
   {
     "id": "fire_ax",
+	"copy-from": "fire_ax",
     "type": "TOOL",
     "name": "fire axe",
     "description": "This is a large, two-handed pickhead axe normally used by firefighters.  It makes a powerful melee weapon, but is a bit slow to recover between swings.",
@@ -255,7 +256,6 @@
     "symbol": "/",
     "color": "light_gray",
     "techniques": [ "BRUTAL", "stuck_in_1", "stuck_in_3" ],
-    "qualities": [ [ "AXE", 2 ] ],
     "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE" ]
   },
   {
@@ -427,6 +427,7 @@
   },
   {
     "id": "hammer",
+	"copy-from": "hammer",
     "type": "TOOL",
     "name": "hammer",
     "description": "This is a demagnetized steel hammer with a wooden grip.  With a hammer, nails, and two by fours in your inventory, you could board up adjacent doors and windows.  It has myriad other uses as well.",
@@ -439,12 +440,12 @@
     "techniques": [ "repose" ],
     "symbol": ";",
     "color": "brown",
-    "qualities": [ [ "HAMMER", 3 ], [ "HAMMER_FINE", 1 ] ],
     "use_action": "HAMMER",
     "flags": [ "BELT_CLIP", "NONCONDUCTIVE" ]
   },
   {
     "id": "iceaxe",
+	"copy-from": "iceaxe",
     "type": "TOOL",
     "name": "ice axe",
     "description": "This is an ice axe with hammer on its head, a multi-purpose hiking and climbing tool used by mountaineers.  It is sturdy enough, so you can use it to pry open closed doors or lift manhole covers.",
@@ -464,6 +465,7 @@
   },
   {
     "id": "katana",
+	"copy-from": "katana",
     "type": "TOOL",
     "category": "weapons",
     "name": "katana",
@@ -483,6 +485,7 @@
   },
   {
     "id": "knife_combat",
+	"copy-from": "knife_combat",
     "type": "TOOL",
     "category": "weapons",
     "name": "combat knife",
@@ -510,6 +513,7 @@
   },
   {
     "id": "knife_hunting",
+	"copy-from": "knife_hunting",
     "type": "TOOL",
     "category": "weapons",
     "name": "hunting knife",
@@ -529,6 +533,7 @@
   },
   {
     "id": "knife_rambo",
+	"copy-from": "knife_rambo",
     "type": "TOOL",
     "category": "weapons",
     "name": "survival knife",
@@ -549,6 +554,7 @@
   },
   {
     "id": "knife_rm42",
+	"copy-from": "knife_rm42",	
     "type": "TOOL",
     "category": "weapons",
     "name": "RM42 fighting knife",
@@ -576,6 +582,7 @@
   },
   {
     "id": "knife_trench",
+	"copy-from": "knife_trench",
     "type": "TOOL",
     "category": "weapons",
     "name": "trench knife",
@@ -596,6 +603,7 @@
   },
   {
     "id": "kris",
+	"copy-from": "kris",
     "type": "TOOL",
     "category": "weapons",
     "name": "kris",
@@ -616,6 +624,7 @@
   },
   {
     "id": "kukri",
+	"copy-from": "kukri",
     "type": "TOOL",
     "category": "weapons",
     "name": "kukri",
@@ -635,6 +644,7 @@
   },
   {
     "id": "l-stick",
+	"copy-from": "l-stick",
     "type": "TOOL",
     "category": "weapons",
     "name": "L-stick (off)",
@@ -664,6 +674,7 @@
   },
   {
     "id": "l-stick_on",
+	"copy-from": "l-stick_on",
     "type": "TOOL",
     "category": "weapons",
     "name": "L-stick (on)",
@@ -687,6 +698,7 @@
   },
   {
     "id": "makeshift_hammer",
+	"copy-from": "makeshift_hammer",
     "type": "TOOL",
     "name": "makeshift hammer",
     "description": "This is a crude hammer make from a piece of metal affixed to a stick.  It functions adequately as a hammer, but really can't compare to a proper one.",
@@ -704,6 +716,7 @@
   },
   {
     "id": "mop",
+	"copy-from": "mop",
     "type": "TOOL",
     "name": "mop",
     "description": "This is an unwieldy mop.  Good for cleaning up spills.  Use to mop up any 'mess' you may have made.",
@@ -720,6 +733,7 @@
   },
   {
     "id": "pickaxe",
+	"copy-from": "pickaxe",
     "type": "TOOL",
     "name": "pickaxe",
     "description": "This is a large steel pickaxe, suitable for breaking up hard things or (with enough skill) hard targets.  Strike the earth!",
@@ -738,6 +752,7 @@
   },
   {
     "id": "primitive_axe",
+	"copy-from": "primitive_axe",
     "type": "TOOL",
     "name": "stone axe",
     "description": "This is a sharpened stone affixed to a stick.  It works passably well as an axe but really can't compare to a proper axe.",
@@ -754,6 +769,7 @@
   },
   {
     "id": "primitive_hammer",
+	"copy-from": "primitive_hammer",
     "type": "TOOL",
     "name": "stone hammer",
     "description": "This is a rock affixed to a stick, in the crude facsimile of a hammer.  It functions adequately as a hammer, but really can't compare to a proper one.",
@@ -770,6 +786,7 @@
   },
   {
     "id": "rapier",
+	"copy-from": "rapier",
     "type": "TOOL",
     "category": "weapons",
     "name": "rapier",
@@ -789,6 +806,7 @@
   },
   {
     "id": "scalpel",
+	"copy-from": "scalpel",
     "type": "TOOL",
     "name": "scalpel",
     "description": "This is a very sharp knife designed for surgical cutting.  It's small, sharp blade allows for precision strikes in the hands of the skilled.",
@@ -806,6 +824,7 @@
   },
   {
     "id": "shock_staff",
+	"copy-from": "shock_staff",
     "type": "TOOL",
     "category": "weapons",
     "name": "powered quarterstaff",
@@ -828,6 +847,7 @@
   },
   {
     "id": "shocktonfa_off",
+	"copy-from": "shocktonfa_off",
     "type": "TOOL",
     "category": "weapons",
     "name": "tactical tonfa (off)",
@@ -850,6 +870,7 @@
   },
   {
     "id": "shocktonfa_on",
+	"copy-from": "shocktonfa_on",
     "type": "TOOL",
     "category": "weapons",
     "name": "tactical tonfa (on)",
@@ -874,6 +895,7 @@
   },
   {
     "id": "shovel",
+	"copy-from": "shovel",
     "type": "TOOL",
     "name": "shovel",
     "description": "This is a digging tool.  Use it to dig pits adjacent to your location.",
@@ -892,6 +914,7 @@
   },
   {
     "id": "hoe",
+	"copy-from": "hoe",
     "type": "TOOL",
     "name": "hoe",
     "description": "This is a farming implement.  Use it to turn tillable land into a slow-to-cross pile of dirt.",
@@ -926,6 +949,7 @@
   },
   {
     "id": "switchblade",
+	"copy-from": "switchblade",
     "type": "TOOL",
     "category": "weapons",
     "name": "switchblade",
@@ -944,6 +968,7 @@
   },
   {
     "id": "tanto",
+	"copy-from": "tanto",
     "type": "TOOL",
     "category": "weapons",
     "name": "tanto",
@@ -963,6 +988,7 @@
   },
   {
     "id": "torch",
+	"copy-from": "torch",
     "type": "TOOL",
     "name": "torch",
     "name_plural": "torches",
@@ -990,6 +1016,7 @@
   },
   {
     "id": "torch_lit",
+	"copy-from": "torch_lit",
     "type": "TOOL",
     "name": "torch (lit)",
     "name_plural": "torches (lit)",
@@ -1012,6 +1039,7 @@
   },
   {
     "id": "wakizashi",
+	"copy-from": "wakizashi",
     "type": "TOOL",
     "category": "weapons",
     "name": "wakizashi",
@@ -1032,6 +1060,7 @@
   },
   {
     "id": "wrench",
+	"copy-from": "wrench",
     "type": "TOOL",
     "name": "wrench",
     "name_plural": "wrenches",
@@ -1085,6 +1114,7 @@
   {
     "type": "GENERIC",
     "id": "cudgel",
+	"copy-from": "cudgel",
     "name": "cudgel",
     "description": "A slender long rod of wood, while traditionally intended as a training tool for many dueling moves, it still makes a good melee weapon in a pinch.",
     "weight": 875,
@@ -1101,6 +1131,7 @@
   {
     "type": "GENERIC",
     "id": "q_staff",
+	"copy-from": "q_staff",
     "symbol": "/",
     "color": "brown",
     "name": "quarterstaff",
@@ -1119,6 +1150,7 @@
   {
     "type": "GENERIC",
     "id": "i_staff",
+	"copy-from": "i_staff",
     "symbol": "/",
     "color": "brown",
     "name": "ironshod quarterstaff",
@@ -1174,6 +1206,7 @@
   {
     "type": "GENERIC",
     "id": "pointy_stick",
+	"copy-from": "pointy_stick",
     "symbol": "/",
     "color": "brown",
     "name": "pointy stick",
@@ -1191,6 +1224,7 @@
   {
     "type": "GENERIC",
     "id": "broom",
+	"copy-from": "broom",
     "name": "broom",
     "description": "A long-handled broom.  Makes a terrible weapon unless you're chasing cats.",
     "weight": 929,
@@ -1207,6 +1241,7 @@
   {
     "type": "GENERIC",
     "id": "hammer_sledge",
+	"copy-from": "hammer_sledge",
     "name": "sledge hammer",
     "description": "A large, heavy hammer.  Makes an acceptable melee weapon for the very strong, but is nearly useless in the hands of the weak.",
     "weight": 5000,
@@ -1223,6 +1258,7 @@
   {
     "type": "GENERIC",
     "id": "nailbat",
+	"copy-from": "nailbat",
     "name": "nail bat",
     "description": "A baseball bat with several nails driven through it, an excellent melee weapon.",
     "weight": 1159,
@@ -1240,6 +1276,7 @@
   {
     "type": "GENERIC",
     "id": "bwirebat",
+	"copy-from": "bwirebat",
     "name": "barbed wire bat",
     "description": "A baseball bat wrapped with barbed wire.  A brutal melee weapon.",
     "weight": 1420,
@@ -1276,6 +1313,7 @@
   {
     "type": "GENERIC",
     "id": "homewrecker",
+	"copy-from": "homewrecker",
     "name": "homewrecker",
     "description": "A long piece of wood with several chunks of steel firmly tied to it.  The resulting weapon is unwieldy and slow but very heavy hitting.",
     "weight": 3024,
@@ -1325,6 +1363,7 @@
   {
     "type": "GENERIC",
     "id": "bat_metal",
+	"copy-from": "bat_metal",
     "name": "aluminum bat",
     "description": "An aluminum baseball bat, lighter than a wooden bat and a little easier to swing as a result.",
     "weight": 765,
@@ -1340,6 +1379,7 @@
   },
   {
     "id": "spear_knife",
+	"copy-from": "spear_knife",
     "type": "TOOL",
     "category": "weapons",
     "name": "knife spear",
@@ -1360,6 +1400,7 @@
   {
     "type": "GENERIC",
     "id": "spear_wood",
+	"copy-from": "spear_wood",
     "name": "wooden spear",
     "description": "A stout pole with an improvised grip and a fire-hardened point.",
     "weight": 898,
